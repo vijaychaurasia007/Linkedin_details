@@ -16,7 +16,7 @@ document.getElementById("fetchBtn").addEventListener("click", () => {
       const lastName = lastParts.join(" ");
       const domain = organisation.replace(/\s+/g, "").toLowerCase() + ".com";
 
-      const apiKey = "6a6a80dd50256f5329d806b7271b042ac1d165c1"; // <-- replace with your key
+      const apiKey = ""; // <-- replace with your key
       let email = "No email found";
       let enrichedData = null;
 
